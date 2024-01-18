@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  background-color: #e0f2f1;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-div{
+  background-color: white;
+  width: 25vw;
+  height: 80vh;
+  border-radius: 30px;
+  box-shadow: rgb(0, 0, 0);
+  overflow-y: auto;
+}
+.main-div h2{
+  background-color: #008080;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.input-div{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #008080 ;
+  font-size: 22px;
+  text-align: center;
+  width: 180px;
+  word-spacing: 6px;
+  text-transform: capitalize;
+}
+.input-div::placeholder{
+  text-align: center;
+  font-size: 22px;
+}
+.main-div button{
+  background-color: #008080;
+  color: white;
+  font-size: xx-large;
+  border-radius: 50px;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+.main-div ol li{
+  margin-bottom: 10px;
+}
+.main-div ol li button{
+  background-color: #008080;
+  color: white;
+  font-size: large;
+  border-radius: 50px;
+  border: none;
+  width: 30px;
+  margin-right: 20px;
+  height: 30px;
+  margin-left: 10px;
+}
+.main-div ol li button:hover{
+  background-color: red;
+}
+.main-div button:hover{
+  background-color: green;
+}
+.main-div ol{
+  list-style-type: none;
+  text-align: left;
+  color: #008080;
+  font-size: 22px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
